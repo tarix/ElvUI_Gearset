@@ -1,5 +1,3 @@
 ﻿<Ui xmlns="http://www.blizzard.com/wow/ui/">
 	<Include file="equipment\load_equipment.xml"/>
-	<Include file="datatexts\load_datatexts.xml"/>
-	<Include file="paperdoll\load_paperdoll.xml"/>
 </Ui>

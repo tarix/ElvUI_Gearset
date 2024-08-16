@@ -10,7 +10,6 @@
 ## DefaultState: Enabled
 ## X-ElvVersion: 13.74
 
-libs\load_libs.xml
 locales\load_locales.xml
 ElvUI_Gearset.lua
 config\load_config.xml

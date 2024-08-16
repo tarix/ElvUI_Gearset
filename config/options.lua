@@ -4,8 +4,6 @@ local EEL = E:GetModule('ElvuiGearset')
 local tinsert, format = tinsert, format
 
 local function configOptions()
-    --E.Options.name = E.Options.name.." + EEL "..format(": |cff99ff33%s|r", EEL.version)
-
     E.Options.args.eel = {
 		type = "group",
 		name = EEL.title,
@@ -16,7 +14,7 @@ local function configOptions()
 			header1 = {
 				order = 1,
 				type = "header",
-				name = format(L["%s version |cffff8000%s|r by Tevoll "], EEL.title, EEL.version),
+				name = format(L["%s v|cffff8000%s|r"], EEL.title, EEL.version),
             }
         }
     }
