@@ -1,5 +1,5 @@
 local E, L, V, P, G = unpack(ElvUI); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB, Localize Underscore
-local EEL = E:GetModule('ElvuiEnhancedAgain')
+local EEL = E:GetModule('ElvuiGearset')
 local M = E:GetModule('Minimap')
 local ML = E:NewModule('MinimapLocation', 'AceHook-3.0', 'AceEvent-3.0', 'AceTimer-3.0');
 

@@ -1,5 +1,5 @@
 local E, L, V, P, G = unpack(ElvUI);
-local EEL = E:GetModule("ElvuiEnhancedAgain");
+local EEL = E:GetModule("ElvuiGearset");
 local PD = E:GetModule("PaperDoll");
 
 local tsort = table.sort

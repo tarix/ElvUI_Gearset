@@ -1,6 +1,6 @@
 local E, L, V, P, G = unpack(ElvUI); --Import: Engine, Locales, PrivateDB, ProfileDB, GlobalDB, Localize Underscore
 local EQ = E:NewModule('Equipment', 'AceHook-3.0', 'AceEvent-3.0');
-local EEL = E:GetModule('ElvuiEnhancedAgain')
+local EEL = E:GetModule('ElvuiGearset')
 -- Based on ElvUI Improved Spec Switch Datatext
 -- Author: Lockslap
 -- Updated for Legion/BtS by Tevoll

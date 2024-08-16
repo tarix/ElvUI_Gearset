@@ -13,7 +13,7 @@ function UF:Construct_Unit_GPS(frame, unit)
 	gps:SetAlpha(.7)
 
 	gps.Texture = gps:CreateTexture(nil, "OVERLAY")
-	gps.Texture:SetTexture([[Interface\AddOns\ElvUI_Enhanced\media\textures\arrow.tga]])
+	gps.Texture:SetTexture([[Interface\AddOns\ElvUI_Gearset\media\textures\arrow.tga]])
 	gps.Texture:Size(12, 12)
 	gps.Texture:SetPoint("LEFT", gps, "LEFT", 0, 0)
 
@@ -53,7 +53,7 @@ function UF:AddShouldIAttackIcon(frame)
 	tag:SetAlpha(.5)
 
 	tag.tx = tag:CreateTexture(nil, "OVERLAY")
-	tag.tx:SetTexture([[Interface\AddOns\ElvUI_Enhanced\media\textures\shield.tga]])
+	tag.tx:SetTexture([[Interface\AddOns\ElvUI_Gearset\media\textures\shield.tga]])
 	tag.tx:SetAllPoints()
 	
 	tag.db = E.db.unitframe.units.target.attackicon

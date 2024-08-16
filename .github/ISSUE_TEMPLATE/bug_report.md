@@ -22,8 +22,8 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Version (please complete the following information):**
- - Version ElvUI [e.g. 22]
- - Version Elvui_Enhanced [e.g. 4.0.0-beta1]
+ - Version ElvUI [e.g. 13.74]
+ - Version Elvui_Gearset [e.g. 11.0.2-1]
 
 **Additional context**
 Add any other context about the problem here.

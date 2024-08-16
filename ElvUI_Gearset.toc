@@ -1,0 +1,17 @@
+## Interface: 110002
+## Title: |cff1784d1ElvUI|r Gearset
+## Author: tarix76
+## Version: 11.0.2-1
+## Notes: Plugin-Enhancements for |cff1784d1ElvUI|r.
+## X-Category: Plugins
+## URL: https://github.com/tarix/ElvUI_Gearset
+## X-Website: https://github.com/tarix/ElvUI_Gearset
+## RequiredDeps: ElvUI
+## DefaultState: Enabled
+## X-ElvVersion: 13.74
+
+libs\load_libs.xml
+locales\load_locales.xml
+ElvUI_Gearset.lua
+config\load_config.xml
+modules\load_modules.xml

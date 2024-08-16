@@ -1,5 +1,5 @@
 local E, L, V, P, G = unpack(ElvUI);
-local EEL = E:GetModule("ElvuiEnhancedAgain");
+local EEL = E:GetModule("ElvuiGearset");
 local EQ = E:GetModule("Equipment");
 local SO = E:GetModule("SetOverlay");
 

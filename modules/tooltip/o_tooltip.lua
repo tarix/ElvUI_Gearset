@@ -1,5 +1,5 @@
 local E, L, V, P, G = unpack(ElvUI);
-local EEL = E:GetModule("ElvuiEnhancedAgain");
+local EEL = E:GetModule("ElvuiGearset");
 local PT = E:GetModule("ProgressTooltip");
 
 P["eel"]["progression"] = {

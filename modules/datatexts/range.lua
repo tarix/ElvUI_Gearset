@@ -68,4 +68,4 @@ E.valueColorUpdateFuncs.RangeEnhanced = ValueColorUpdate
 	click - function to fire when clicking the datatext
 	onEnterFunc - function to fire OnEnter
 ]]
-DT:RegisterDatatext(L['Target Range'], 'ElvUI_Enhanced', {"PLAYER_TARGET_CHANGED"}, OnEvent, OnUpdate)
+DT:RegisterDatatext(L['Target Range'], 'ElvUI_Gearset', {"PLAYER_TARGET_CHANGED"}, OnEvent, OnUpdate)
