@@ -5,8 +5,6 @@ local EP = LibStub("LibElvUIPlugin-1.0")
 local AddOnName, Engine = ...
 local EEL = E:NewModule("ElvuiGearset", "AceHook-3.0", "AceEvent-3.0", "AceTimer-3.0");
 
-local IsAddOnLoaded = IsAddOnLoaded
-
 -- Clear DB for testing>
 local testmode = false
 if testmode then
@@ -20,11 +18,11 @@ if testmode then
 end
 -- <Clear DB for testing
 
-EEL.version = GetAddOnMetadata("ElvUI_Gearset", "Version")
+EEL.version = C_AddOns.GetAddOnMetadata("ElvUI_Gearset", "Version")
 EEL.title = format('|cff00c0fa%s|r|cffff8000%s|r', "ElvUI ", "Gearset")
 EEL.config = {}
 EEL.elvV = tonumber(E.version)
-EEL.elvR = tonumber(GetAddOnMetadata("ElvUI_Gearset", "X-ElvVersion"))
+EEL.elvR = tonumber(C_AddOns.GetAddOnMetadata("ElvUI_Gearset", "X-ElvVersion"))
 
 P["eel"] = {}
 V["eel"] = {}

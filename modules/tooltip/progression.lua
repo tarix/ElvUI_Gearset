@@ -347,7 +347,7 @@ local function OnInspectInfo(self, tt, unit, numTries, r, g, b)
 			PT:UpdateProgression(guid)
 		else
 			ClearAchievementComparisonUnit()
-			if not self.loadedComparison and select(2, IsAddOnLoaded("Blizzard_AchievementUI")) then
+			if not self.loadedComparison and select(2, C_AddOns.IsAddOnLoaded("Blizzard_AchievementUI")) then
 				AchievementFrame_DisplayComparison(unit)
 				HideUIPanel(_G["AchievementFrame"])
 				ClearAchievementComparisonUnit()
