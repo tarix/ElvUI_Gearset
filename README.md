@@ -10,4 +10,3 @@ Please Note: This add-on will not function without ElvUI installed. You can down
 # Features
 ### Equipment Manager
 - Equipment Set Overlay for your bag and bank slots showing the equipment sets for an item.
-- Item levels and durability information on the character screen.
